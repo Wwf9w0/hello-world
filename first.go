@@ -4,7 +4,7 @@ import "net/http"
 import "github.com/gorilla/mux"
 
 func yourHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Gorilla//"))
+	w.Write([]byte("Hello World//"))
 }
 
 func main() {
