@@ -9,6 +9,7 @@ type ToDo struct {
 	Title string
 	Done  bool
 }
+
 type ToDoPageData struct {
 	PageTitle string
 	Todos     []ToDo
